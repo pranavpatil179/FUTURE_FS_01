@@ -105,70 +105,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2.5 RESUME PREVIEW */}
-      <section className="py-24 px-6 overflow-hidden">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between mb-16 gap-8">
-            <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight">Curriculum <span className="text-blue-500 underline decoration-blue-500/30 underline-offset-8 italic">Vitae</span></h2>
-            <motion.a 
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href="/resume" 
-              className="group flex items-center gap-3 px-8 py-4 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-all font-mono text-sm tracking-widest uppercase cursor-pointer"
-            >
-              <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center group-hover:bg-blue-500 transition-colors">
-                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-              </div>
-              Get PDF (Two Sheets)
-            </motion.a>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
-            {[ 
-              { title: "Page 1: Profile & Skills", accent: "blue" }, 
-              { title: "Page 2: Projects & Hackathons", accent: "purple" }
-            ].map((page, idx) => (
-              <motion.div 
-                key={page.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: idx * 0.2 }}
-                viewport={{ once: true }}
-                className="group relative h-[600px] rounded-3xl overflow-hidden border border-white/10 bg-white/5 hover:border-blue-500/30 transition-all cursor-pointer"
-              >
-                <div className="absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-black/80 to-transparent z-10" />
-                
-                {/* Simulated Paper Background */}
-                <div className="absolute inset-8 bg-white/5 rounded-xl border border-white/5 overflow-hidden flex flex-col p-8 opacity-40 group-hover:opacity-80 transition-opacity">
-                   <div className="w-1/3 h-4 bg-white/20 mb-4 rounded" />
-                   <div className="w-2/3 h-2 bg-white/10 mb-2 rounded" />
-                   <div className="w-1/2 h-2 bg-white/10 mb-8 rounded" />
-                   <div className="flex-grow space-y-4">
-                      {[1,2,3,4,5,6].map(i => (
-                        <div key={i} className="flex gap-4">
-                           <div className="w-4 h-4 rounded-full bg-white/10 shrink-0" />
-                           <div className="flex-grow space-y-2">
-                             <div className="w-full h-2 bg-white/5 rounded" />
-                             <div className="w-3/4 h-2 bg-white/5 rounded" />
-                           </div>
-                        </div>
-                      ))}
-                   </div>
-                </div>
 
-                <div className="absolute bottom-12 left-12 right-12 z-20">
-                    <p className="text-[10px] font-mono text-blue-400 mb-2 uppercase tracking-widest">{idx === 0 ? "Introduction" : "Development Log"}</p>
-                    <h4 className="text-2xl font-bold">{page.title}</h4>
-                    <div className="mt-6 flex items-center gap-4 text-white/40 group-hover:text-white transition-colors">
-                       <span className="text-xs font-mono uppercase">Full Scan Available</span>
-                       <div className="w-8 h-px bg-white/20" />
-                    </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* 3. SKILLS (SCROLL VELOCITY) */}
       <section id="skills" className="py-24 overflow-hidden border-y border-white/10 bg-black/50">
