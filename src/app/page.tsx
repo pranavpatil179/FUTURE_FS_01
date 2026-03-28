@@ -315,6 +315,11 @@ export default function Home() {
               name: "PU Code Hackathon 3.0", 
               desc: "Participated in team-based software development challenge.", 
               year: "2024" 
+            },
+            { 
+              name: "National Level Hackathons", 
+              desc: "Selected participant in multiple national-level hackathons, building AI & Computer Vision prototypes.", 
+              year: "2023-24" 
             }
           ].map(hack => (
             <div key={hack.name} className={cn(

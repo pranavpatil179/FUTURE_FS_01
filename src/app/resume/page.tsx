@@ -138,8 +138,12 @@ export default function ResumePage() {
                   <p className="text-xs text-slate-500 italic mt-1 font-medium">Developed civic monitoring platform</p>
                 </div>
                 <div>
-                  <h5 className="text-sm font-bold text-slate-800">PU Code Hackathon 3.0</h5>
-                  <p className="text-xs text-slate-500 italic mt-1 font-medium">National-level participant</p>
+                  <h5 className="text-sm font-bold text-slate-800">PU Code Hackathon 3.0 & 2.0</h5>
+                  <p className="text-xs text-slate-500 italic mt-1 font-medium">National-level participant (Multiple editions)</p>
+                </div>
+                <div>
+                  <h5 className="text-sm font-bold text-slate-800">National Level Hackathons</h5>
+                  <p className="text-xs text-slate-500 italic mt-1 font-medium">Selected participant building AI prototypes</p>
                 </div>
               </div>
             </section>
