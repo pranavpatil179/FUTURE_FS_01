@@ -130,6 +130,14 @@ export default function ResumePage() {
               <h3 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400 mb-6 border-l-4 border-blue-600 pl-4">Achievements</h3>
               <div className="space-y-4">
                 <div>
+                  <h5 className="text-sm font-bold text-slate-800">IIM Indore National Hackathon</h5>
+                  <p className="text-xs text-slate-500 italic mt-1 font-medium">Top 10 National Finalist</p>
+                </div>
+                <div>
+                  <h5 className="text-sm font-bold text-slate-800">5+ Hackathon Grand Finalists</h5>
+                  <p className="text-xs text-slate-500 italic mt-1 font-medium">Selected among top teams nationally</p>
+                </div>
+                <div>
                   <h5 className="text-sm font-bold text-slate-800">AWS AI for Bharat Hackathon</h5>
                   <p className="text-xs text-slate-500 italic mt-1 font-medium">Built AI environment risk detector</p>
                 </div>
@@ -140,10 +148,6 @@ export default function ResumePage() {
                 <div>
                   <h5 className="text-sm font-bold text-slate-800">PU Code Hackathon 3.0 & 2.0</h5>
                   <p className="text-xs text-slate-500 italic mt-1 font-medium">National-level participant (Multiple editions)</p>
-                </div>
-                <div>
-                  <h5 className="text-sm font-bold text-slate-800">National Level Hackathons</h5>
-                  <p className="text-xs text-slate-500 italic mt-1 font-medium">Selected participant building AI prototypes</p>
                 </div>
               </div>
             </section>

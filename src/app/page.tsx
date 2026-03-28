@@ -339,11 +339,11 @@ export default function Home() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="p-8">
             <h4 className="text-5xl font-black bg-gradient-to-br from-white to-white/40 bg-clip-text text-transparent mb-4">Top 10</h4>
-            <p className="text-white/60 font-mono text-sm uppercase tracking-wider">IIM National Level Hackathon</p>
+            <p className="text-white/60 font-mono text-sm uppercase tracking-wider text-center">IIM Indore National Hackathon</p>
           </div>
           <div className="p-8 md:border-x border-white/10">
             <h4 className="text-5xl font-black bg-gradient-to-br from-blue-400 to-purple-500 bg-clip-text text-transparent mb-4">5+</h4>
-            <p className="text-white/60 font-mono text-sm uppercase tracking-wider">Hackathon Finalist</p>
+            <p className="text-white/60 font-mono text-sm uppercase tracking-wider text-center">Hackathon Grand Finalist</p>
           </div>
           <div className="p-8">
             <h4 className="text-5xl font-black bg-gradient-to-br from-white to-white/40 bg-clip-text text-transparent mb-4">Active</h4>
