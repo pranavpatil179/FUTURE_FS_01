@@ -40,7 +40,7 @@ export default function Home() {
           <motion.a 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="/resume.pdf" 
+            href="/resume" 
             target="_blank"
             className="px-5 py-2 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-500 transition-all shadow-lg shadow-blue-500/20"
           >
@@ -113,7 +113,7 @@ export default function Home() {
             <motion.a 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/resume.pdf" 
+              href="/resume" 
               className="group flex items-center gap-3 px-8 py-4 bg-white/5 border border-white/10 rounded-2xl hover:bg-white/10 transition-all font-mono text-sm tracking-widest uppercase cursor-pointer"
             >
               <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center group-hover:bg-blue-500 transition-colors">
